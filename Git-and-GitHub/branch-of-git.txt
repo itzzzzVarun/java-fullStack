@@ -1,0 +1,16 @@
+To create new branch
+    command : git branch branchName (This is branch has every file of main branch)
+
+
+branch merging
+  There are 3 types of branch merging techniqes
+    1-> Fast-Forword Merge
+    2-> 3-way Merge
+    3-> Rebase
+  
+  1->  Fast-Forword Merge: When we make change only in one branch and other branch remains same untill we make it with the other one
+  To merge first goto the branch we want to merge with other (eg: you want to merge main branch with features/test)
+  command: git merge main (run this command from main branch)
+
+
+  2-> 3-way Merge: 
