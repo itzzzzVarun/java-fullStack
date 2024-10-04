@@ -18,7 +18,18 @@ branch merging
   
   1->  Fast-Forword Merge: When we make change only in one branch and other branch remains same untill we make it with the other one
   To merge first goto the branch we want to merge with other (eg: you want to merge main branch with features/test)
-  command: git merge main (run this command from main branch)
+  command: git merge features/test (run this command from main branch)
 
 
-  2-> 3-way Merge: 
+  2-> 3-way Merge: When we parallely work in two or more branches and want to merge them into main branch then this type of merging is called 3-way Merge.
+  command: git merge features/test (run this from main branch)
+  Now, this is show a conflit error that user have to resolve manually by selecting given options.
+
+
+
+
+To check history of commit:
+    command : git checkout commitID
+
+To go back to latest commit:
+    command : git checkout main (run this from main branch)
