@@ -33,3 +33,11 @@ To check history of commit:
 
 To go back to latest commit:
     command : git checkout main (run this from main branch)
+
+
+
+To reset previous commit:
+    command : 
+        1> git reset --soft  ------> staged chnaged
+        2> git reset --mixed ------> untracked
+        3> git reset --hard  ------> permanentally delete
